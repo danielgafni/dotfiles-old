@@ -1,7 +1,7 @@
 #!/bin/bash
 
-git clone https://github.com/ibhagwan/picom
-cd picom
+git clone https://aur.archlinux.org/picom-ibhagwan-git.git
+cd picom-ibhagwan-git
 makepkg -si
 cd ..
 
