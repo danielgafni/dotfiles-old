@@ -216,7 +216,7 @@ screens = [
                 widget.QuickExit(font=font, fontsize=fontsize, default_text='襤 ', padding=0, countdown_format='{}  ', background=night0, foreground=red),
             ],
             35, opacity=0.7, margin=[5, 5, 0, 5]
-        ), wallpaper='/home/dan/Pictures/Wallpapers/Nord_21x9.png'
+        ), wallpaper='/home/dan/Pictures/wallpapers/Nord_21x9.png'
     ),
 ]
 

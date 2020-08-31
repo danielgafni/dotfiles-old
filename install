@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#fonts
+sudo cp ./fonts/* /usr/share/fonts/
+
+# configs
+sudo cp -r .config/* ~/.config/
+
+# wallpapers
+sudo cp -r ./wallpapers/* ~/Pictures/wallpapers
+
+echo Installation finished.
