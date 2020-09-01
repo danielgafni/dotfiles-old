@@ -2,7 +2,7 @@
 
 git clone https://aur.archlinux.org/picom-ibhagwan-git.git
 cd picom-ibhagwan-git
-makepkg -si
+makepkg -si --noconfirm
 cd ..
 
 #fonts
