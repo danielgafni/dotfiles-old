@@ -5,13 +5,18 @@ cd picom-ibhagwan-git
 makepkg -si --noconfirm
 cd ..
 
-#fonts
+# fonts
 sudo cp ./fonts/* /usr/share/fonts/
 
 # configs
 sudo cp -r .config/* ~/.config/
 
 # wallpapers
-sudo cp -r ./wallpapers/* ~/Pictures/wallpapers
+# sudo cp -r ./wallpapers/* ~/Pictures/wallpapers
+
+# zsh plugins
+sudo cp .zsh_plugins ~/.zsh_plugins
+
+
 
 echo Installation finished.
