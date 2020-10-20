@@ -1,6 +1,6 @@
 # Install
 
-`git clone https://github.com/danielgafni/dotfiles/ && dotfiles/install`
+`git clone https://github.com/danielgafni/dotfiles/ && cd dotfiles && ./install`
 
 # Post-install
 ## Configure zsh
