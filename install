@@ -1,22 +1,19 @@
 #!/bin/bash
 
-git clone https://aur.archlinux.org/picom-ibhagwan-git.git
-cd picom-ibhagwan-git
-makepkg -si --noconfirm
-cd ..
+## install picom with rounded corners and kawase blur
+# git clone https://aur.archlinux.org/picom-ibhagwan-git.git
+# cd picom-ibhagwan-git
+# makepkg -si --noconfirm
+# cd ..
 
 # fonts
-sudo cp ./fonts/* /usr/share/fonts/
+cp ./fonts/* /usr/share/fonts/
 
 # configs
-sudo cp -r .config/* ~/.config/
-
-# wallpapers
-# sudo cp -r ./wallpapers/* ~/Pictures/wallpapers
-
-# zsh plugins
-sudo cp .zsh_plugins ~/.zsh_plugins
-
-
+cp config/rofi/* ~/.config/rofi
+cp config/qtile/* ~/.config/qtile
+cp config/picom/* ~/.config/picom
+cp config/zsh/* ~
+cp config/tmux/.tmux.conf ~/.tmux.conf
 
 echo Installation finished.
